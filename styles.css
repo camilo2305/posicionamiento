@@ -1,0 +1,56 @@
+* { box-sizing: border-box; }
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0 16px 80px;
+}
+
+.encabezado {
+  position: sticky;
+  top: 0;
+  background: #3e2723;
+  color: #fff;
+  z-index: 10; 
+}
+
+
+.encabezado a {
+  display: inline-block; 
+  background: #6d4c41;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 20px;
+  margin-top: 20px;
+}
+
+.producto {
+  position: relative; 
+  max-width: 300px;
+  border: 1px solid #999;
+  margin-top: 20px;
+}
+
+.insignia {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: #d32f2f;
+  color: #fff;
+  padding: 4px 10px;
+
+ 
+}
+
+
+.boton-flotante {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: #25d366;
+  color: #fff;
+  padding: 12px 18px;
+  border-radius: 30px;
+  text-decoration: none;
+  z-index: 20;
+}
